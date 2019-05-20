@@ -81,24 +81,23 @@
 
   Private Sub btn9_Click(sender As Object, e As EventArgs) Handles btn9.Click
     output.Push("9")
-
     updateOutput()
   End Sub
 
   Private Sub btnMul_Click(sender As Object, e As EventArgs) Handles btnMul.Click
-    output.Push("*")
+
     numbers.Enqueue("*")
     updateOutput()
   End Sub
 
   Private Sub btnMin_Click(sender As Object, e As EventArgs) Handles btnMin.Click
-    output.Push("-")
+
     numbers.Enqueue("-")
     updateOutput()
   End Sub
 
   Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
-    output.Push("+")
+
     numbers.Enqueue("+")
     updateOutput()
   End Sub
